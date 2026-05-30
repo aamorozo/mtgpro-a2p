@@ -55,9 +55,10 @@ header.site {
 .brand {
   font-family: var(--font-head);
   font-weight: 700; font-size: 1.15rem;
-  color: var(--text); letter-spacing: -0.02em;
+  color: #ffffff; letter-spacing: -0.02em;
 }
-.brand span { color: var(--accent-2); }
+.brand .b-pro { color: #60a5fa; }
+.brand .b-ai  { color: rgba(255,255,255,0.40); }
 .nav .links { display: flex; gap: 22px; margin-left: auto; align-items: center; }
 .nav .links a { color: var(--muted); font-weight: 600; font-size: 0.95rem; }
 .nav .links a:hover, .nav .links a.active { color: var(--text); text-decoration: none; }
